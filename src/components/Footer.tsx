@@ -39,7 +39,7 @@ const Footer = () => {
             <ul className="space-y-3 text-sm text-primary-foreground/70">
               <li className="flex items-start gap-2">
                 <MapPin className="w-4 h-4 mt-0.5 text-secondary flex-shrink-0" />
-                Centurion, Gauteng, South Africa 0157
+                Rustenburg, North West, South Africa
               </li>
               <li className="flex items-center gap-2">
                 <Phone className="w-4 h-4 text-secondary flex-shrink-0" />

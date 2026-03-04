@@ -24,7 +24,7 @@ const HeroSection = () => {
             style={{ animationDelay: "0.2s" }}
           >
             <span className="bg-secondary/20 text-secondary px-4 py-2 rounded-full text-sm font-medium tracking-wide">
-              Centurion, South Africa 🇿🇦
+              Rustenburg, South Africa 🇿🇦
             </span>
           </div>
 
