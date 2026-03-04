@@ -1,4 +1,5 @@
 import { MapPin, Phone } from "lucide-react";
+import logo from "@/assets/logo.jpg";
 
 const Footer = () => {
   return (
@@ -7,18 +8,8 @@ const Footer = () => {
         <div className="grid grid-cols-1 md:grid-cols-3 gap-12 mb-12">
           {/* Brand */}
           <div>
-            <div className="flex items-center gap-3 mb-4">
-              <div className="w-10 h-10 rounded-full bg-gradient-gold flex items-center justify-center">
-                <span className="font-display font-bold text-lg text-primary">A</span>
-              </div>
-              <div>
-                <div className="font-display font-bold text-lg text-primary-foreground">
-                  Asante Andi
-                </div>
-                <div className="text-xs text-primary-foreground/60 tracking-widest uppercase">
-                  Consulting
-                </div>
-              </div>
+            <div className="mb-4">
+              <img src={logo} alt="Asante Andi Consulting" className="h-14 w-auto brightness-0 invert" />
             </div>
             <p className="text-primary-foreground/70 text-sm leading-relaxed">
               South Africa's trusted education and skills development
