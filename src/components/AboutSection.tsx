@@ -36,7 +36,7 @@ const AboutSection = () => {
                 development accessible to every South African who seeks growth.
               </p>
               <p>
-                Based in Centurion, Gauteng, we serve students and professionals
+                Based in Rustenburg, North West, we serve students and professionals
                 across all nine provinces — from SANTS ECD practitioners to
                 postgraduate researchers at South Africa's leading universities.
               </p>
