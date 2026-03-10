@@ -1,4 +1,4 @@
-import { Phone, Mail, MapPin, MessageCircle, Facebook } from "lucide-react";
+import { Phone, MessageCircle, Facebook } from "lucide-react";
 import { Button } from "@/components/ui/button";
 
 const ContactSection = () => {

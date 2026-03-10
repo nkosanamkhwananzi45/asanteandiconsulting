@@ -12,6 +12,8 @@ const AboutSection = () => {
                 src={patternBg}
                 alt="African-inspired pattern representing AAC's heritage"
                 className="w-full h-full object-cover"
+                loading="lazy"
+                decoding="async"
               />
             </div>
             <div className="absolute -bottom-6 -right-6 w-32 h-32 bg-gradient-gold rounded-2xl -z-10 hidden lg:block" />
