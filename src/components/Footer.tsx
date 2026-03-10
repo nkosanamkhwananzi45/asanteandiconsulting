@@ -8,8 +8,16 @@ const Footer = () => {
         <div className="grid grid-cols-1 md:grid-cols-3 gap-12 mb-12">
           {/* Brand */}
           <div>
-            <div className="mb-4">
-              <img src={logo} alt="Asante Andi Consulting" className="h-14 w-auto brightness-0 invert" />
+            <div className="mb-4 flex items-center gap-3">
+              <img
+                src={logo}
+                alt="Asante Andi Consulting"
+                className="h-14 w-auto rounded-lg"
+                loading="lazy"
+              />
+              <span className="font-display font-bold text-primary-foreground text-lg">
+                Asante Andi
+              </span>
             </div>
             <p className="text-primary-foreground/70 text-sm leading-relaxed">
               South Africa's trusted education and skills development
