@@ -6,17 +6,28 @@ import AboutSection from "@/components/AboutSection";
 import BookingSection from "@/components/BookingSection";
 import ContactSection from "@/components/ContactSection";
 import Footer from "@/components/Footer";
+import AnimatedSection from "@/components/AnimatedSection";
 
 const Index = () => {
   return (
     <div className="min-h-screen bg-background">
       <Navbar />
       <HeroSection />
-      <ServicesSection />
-      <StatsSection />
-      <AboutSection />
-      <BookingSection />
-      <ContactSection />
+      <AnimatedSection>
+        <ServicesSection />
+      </AnimatedSection>
+      <AnimatedSection>
+        <StatsSection />
+      </AnimatedSection>
+      <AnimatedSection delay={0.1}>
+        <AboutSection />
+      </AnimatedSection>
+      <AnimatedSection delay={0.1}>
+        <BookingSection />
+      </AnimatedSection>
+      <AnimatedSection>
+        <ContactSection />
+      </AnimatedSection>
       <Footer />
     </div>
   );
