@@ -36,6 +36,9 @@ const Index = () => {
         <BookingSection />
       </AnimatedSection>
       <AnimatedSection>
+        <FAQSection />
+      </AnimatedSection>
+      <AnimatedSection>
         <ContactSection />
       </AnimatedSection>
       <Footer />
