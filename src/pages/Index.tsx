@@ -5,9 +5,11 @@ import PricingSection from "@/components/PricingSection";
 import StatsSection from "@/components/StatsSection";
 import AboutSection from "@/components/AboutSection";
 import BookingSection from "@/components/BookingSection";
+import TestimonialsSection from "@/components/TestimonialsSection";
 import ContactSection from "@/components/ContactSection";
 import Footer from "@/components/Footer";
 import AnimatedSection from "@/components/AnimatedSection";
+import WhatsAppButton from "@/components/WhatsAppButton";
 
 const Index = () => {
   return (
@@ -26,6 +28,9 @@ const Index = () => {
       <AnimatedSection delay={0.1}>
         <AboutSection />
       </AnimatedSection>
+      <AnimatedSection>
+        <TestimonialsSection />
+      </AnimatedSection>
       <AnimatedSection delay={0.1}>
         <BookingSection />
       </AnimatedSection>
@@ -33,6 +38,7 @@ const Index = () => {
         <ContactSection />
       </AnimatedSection>
       <Footer />
+      <WhatsAppButton />
     </div>
   );
 };
